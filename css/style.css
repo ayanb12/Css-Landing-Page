@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:900|Roboto&display=swap');
 
 :root {
 	--red-color: hsl(0, 100%, 68%);
@@ -53,7 +55,22 @@ ul li {
 }
 
 
+.btn-primary {
+	display: inline-block;
+	padding: 14px 25px;
+	background-color: var(--red-color);
+	font-size: 14px;
+	color: #fff;
+	border-radius: 6px;
+	font-family: 'Barlow', sans-serif;
+	font-weight: 700;
+	cursor: pointer;
+	text-decoration: none;
+	border: none;
+}
 
+
+/* Main Navbar */
 .main-nav {
 	display: flex;
 	align-items: center;
@@ -115,7 +132,7 @@ ul li {
 	align-items: center;
 	text-align: start;
 	justify-content: center;
-	margin-top: -150px;
+	margin-top: -50px;
 }
 
 
@@ -123,10 +140,11 @@ ul li {
 	display: flex;
 	flex-direction: column;
 	text-align: start;
+	margin-bottom: 90px;
 }
 
 .first-content p {
-	padding: 1.8rem 0;
+	padding: 1rem 0;
 	color: var(--grayish-blue);
 	font-family: 'Barlow', sans-serif;
 	font-weight: 100;
@@ -134,13 +152,42 @@ ul li {
 	letter-spacing: 3px;
 }
 
+.first-content p:last-child {
+	font-family: 'Roboto', sans-serif;
+	padding-top: 30px;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+
+.first-content h1.main-heading {
+	font-size: 2.6rem;
+	font-family: 'Raleway', sans-serif;
+	color: var(--very-dark-blue);
+	padding: 2px 0;
+}
+
+
+.first .second-content {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+
+.first .second-content a {
+	margin-right: 30px;
+}
+
 
 .showcase .second {
-	width: 59%;
+	width: 55%;
 }
 
 
 .showcase .second .device {
 	height: 440px;
-	margin-right: -44%;
+	margin-right: -40%;
 }
