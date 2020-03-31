@@ -371,3 +371,78 @@ ul li {
 		width: 60px;
 	}
 }
+
+
+
+@media(max-width: 500px) {
+	.main-nav {
+		margin-bottom: 5px;
+	}
+
+	.showcase {
+		display: flex;
+		flex-direction: column-reverse;
+		padding-top: 0;
+		margin-top: -180px;
+	}
+
+	.showcase .second {
+		width: 110%;
+	}
+
+
+	.showcase .second .device {
+		height: 230px;
+		margin-right: -32%;
+	}
+
+	.showcase .first .first-content {
+		padding: 5rem 0 0 0;
+	}
+
+	.showcase .first .first-content p:first-child {
+		font-size: 12px;
+		padding: 0.9rem 0;
+	}
+
+	.showcase .first .first-content p:last-child {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		padding: 10px 0;
+	}
+
+	.showcase .first .first-content .main-heading {
+		font-size: 1.9rem;
+		letter-spacing: 0.2px;
+	}
+
+	.showcase .first .first-content .bg-dark {
+		display: inline;
+		padding: 6px 16px;
+	}
+
+	.first .second-content {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		justify-content: start;
+	}
+
+	.btn-primary {
+		font-size: 10px;
+		padding: 12px 15px;
+		margin-right: 20px;
+	}
+
+	.first .second-content a {
+		margin: 0;
+	}
+
+	.first .second-content p {
+		padding: 0 20px;
+	}
+
+}
