@@ -1,4 +1,4 @@
-# Css Landing Page Design
+# Css Landing Page Design - Frontend Mentor Challenge
 
 ![Design preview for the Project tracking intro component coding challenge](./design/desktop-preview.jpg)
 
