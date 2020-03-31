@@ -1,4 +1,4 @@
-# Frontend Mentor - Project tracking intro component
+# Css Landing Page Design
 
 ![Design preview for the Project tracking intro component coding challenge](./design/desktop-preview.jpg)
 
